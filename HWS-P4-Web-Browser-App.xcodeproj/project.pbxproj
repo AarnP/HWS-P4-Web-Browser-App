@@ -58,13 +58,29 @@
 			children = (
 				F72F9B7829921D9E00CE73DC /* AppDelegate.swift */,
 				F72F9B7A29921D9E00CE73DC /* SceneDelegate.swift */,
-				F72F9B7C29921D9E00CE73DC /* ViewController.swift */,
-				F72F9B7E29921D9E00CE73DC /* Main.storyboard */,
+				F7351CED2992218100A9A659 /* Controllers */,
+				F7351CEE2992218F00A9A659 /* Views */,
 				F72F9B8129921DA000CE73DC /* Assets.xcassets */,
 				F72F9B8329921DA000CE73DC /* LaunchScreen.storyboard */,
 				F72F9B8629921DA000CE73DC /* Info.plist */,
 			);
 			path = "HWS-P4-Web-Browser-App";
+			sourceTree = "<group>";
+		};
+		F7351CED2992218100A9A659 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F72F9B7C29921D9E00CE73DC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F7351CEE2992218F00A9A659 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F72F9B7E29921D9E00CE73DC /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
